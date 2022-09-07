@@ -1,0 +1,129 @@
+body {
+  font-family: "proxima-nova", sans-serif;
+}
+#navbar {
+  margin-top: 0px;
+  background-image: url("/images/background.jpg");
+  padding: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar-I {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-container {
+  display: flex;
+  gap: 20px;
+}
+
+.new-post-button {
+  background-color: rgb(27, 183, 110);
+  display: flex;
+  justify-items: center;
+  gap: 10px;
+  width: 100px;
+  text-align: center;
+  padding: 7px 12px;
+  border-radius: 5px;
+  font-weight: 700;
+  color: white;
+  font-size: 15px;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.auth-container > * {
+  cursor: pointer;
+  /* border: 2px solid white; */
+  width: 90px;
+  text-align: center;
+  padding: 7px 12px;
+  border-radius: 5px;
+  font-weight: 700;
+  color: white;
+  font-size: 15px;
+}
+.go-ad-free-button {
+  background-color: rgb(100, 50, 249);
+}
+.sign-in-button {
+  background-color: transparent;
+}
+
+.sign-up-button {
+  background-color: rgb(27, 183, 110);
+}
+
+.navbar-body{
+    width:80%;
+    margin: auto;
+}
+.navbar-body h2:nth-child(1){
+    color: rgb(174,216,234);
+    text-align: center;
+}
+.navbar-body div:nth-child(2){
+    color: rgb(146,145,167);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-tags{
+}
+.tag-I{
+    position: relative;
+    width: 240px;
+    height: 130px;
+    background-image: url("/images/miniatures.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+   
+}
+
+
+.tag-content{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    text-align: center;
+    gap:10px;
+    padding:10px 0px;
+    flex-direction: column;
+    justify-content: baseline;
+    justify-items: center;
+    
+    background-color: rgb(184,94,68);
+}
+
+.tag-content h5{
+    font-weight: 800;
+    color: white;
+    margin: 0px;
+}
+.tag-content h6{
+    margin: 0px;
+    font-size: 12px;
+    color: rgb(220,175,162);
+}
+
+.tag{
+    position: relative;
+    width:110px;
+    height: 130px;
+    background-image: url("/images/movies.jpg");
+}
+
+
+
+.navbar-tags div:nth-child(2) .tag-content{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(40,148,193);
+}
